@@ -10,6 +10,7 @@ faceCascade = cv2.CascadeClassifier(face_cascPath)
 eyeCascade = cv2.CascadeClassifier(eye_cascPath)
 
 cap = cv2.VideoCapture(0)
+
 def eye_open():
     ret, img = cap.read()
     if ret:
