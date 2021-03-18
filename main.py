@@ -1,4 +1,4 @@
-from cep import eye_open
+from CEP import eye_open
 import screen_brightness_control as sbc
 
 def main():
