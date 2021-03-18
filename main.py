@@ -9,6 +9,7 @@ def main():
             else:
                 sbc.set_brightness(0)
         except sbc.ScreenBrightnessError as error:
+            print(error)
             pass
 if __name__ == '__main__':
     main()
