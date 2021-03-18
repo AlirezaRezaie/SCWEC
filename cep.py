@@ -3,8 +3,8 @@ import numpy
 from random import randrange
 import pyttsx3
 
-eye_cascPath = '../haarcascades/haarcascade_eye_tree_eyeglasses.xml'  #eye detect model
-face_cascPath = '../haarcascades/haarcascade_frontalface_alt.xml'  #face detect model
+eye_cascPath = 'haarcascades/haarcascade_eye_tree_eyeglasses.xml'  #eye detect model
+face_cascPath = 'haarcascades/haarcascade_frontalface_alt.xml'  #face detect model
 
 faceCascade = cv2.CascadeClassifier(face_cascPath)
 eyeCascade = cv2.CascadeClassifier(eye_cascPath)
