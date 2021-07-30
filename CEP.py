@@ -37,6 +37,7 @@ def eye_open():
                 minSize=(30, 30),
                 # flags = cv2.CV_HAAR_SCALE_IMAGE
             )
+            
             if len(eyes) == 0:
                 return False
             else:
