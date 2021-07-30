@@ -6,9 +6,12 @@ def main():
         try:
             if eye_open():
                 sbc.set_brightness(100)
+                
             else:
                 sbc.set_brightness(0)
+                
         except sbc.ScreenBrightnessError as error:
             print(error)
+            
 if __name__ == '__main__':
     main()
